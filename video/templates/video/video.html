@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeo</title>
+    {% load static %}
+    <link rel="stylesheet" href="{%static 'css/styles.css'%}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Presente de Dia dos Namorados</h1>
+        <div class="content">
+            <p>A gente só namora a 2 meses mas acho que já deu pra percerber que escrita não é meu forte
+                JSAHDKJSAHDJKASH. Só queria te dizer que te amo muito muito muito e que estou muito feliz em ter você na
+                minha vida. Por você tudo vale a pena, os momentos são melhores, eu sou melhor, melhor com você. Te amo
+                meu amor, assiste esse vídeo aí e depois dá um next, valeu rata 🤙!</p>
+
+        </div>
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJkiBO9H3No" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <a href="{% url 'recompensa:recompensa' %}"><button class="btn">Next</button></a>
+    </div>
+</body>
+
+</html>
