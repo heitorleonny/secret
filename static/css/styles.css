@@ -74,3 +74,26 @@ li:hover {
 .lista {
     list-style-type: none;
 }
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}
