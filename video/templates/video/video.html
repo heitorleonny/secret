@@ -20,17 +20,18 @@
 
         </div>
         <div class="video">
-        <div class="video">
-            <video controls>
-                <source src="{% static 'img/eueela.mp4' %}" type="video/mp4">
-                Seu navegador não suporta a tag de vídeo.
-              </video>
-              
+            <div class="video">
+                <div class="video">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZJkiBO9H3No"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    <p>caso o vídeo não carregue <a href="https://www.youtube.com/embed/ZJkiBO9H3No">clique aqui</a></p>
+                </div>
+
             </div>
-            
+            <a href="{% url 'recompensa:recompensa' %}"><button class="btn">Next</button></a>
         </div>
-        <a href="{% url 'recompensa:recompensa' %}"><button class="btn">Next</button></a>
-    </div>
 </body>
 
 </html>
